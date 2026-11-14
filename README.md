@@ -48,16 +48,4 @@ Run `REPS=3 THREADS="1 2 4" bash scripts/bench.sh` for a quicker benchmark.
 - Words are ASCII letters/digits/underscore only (no Unicode word rules).
 
 
-## Fast completion path (student ID 2403008)
-For a compact end-to-end workflow, follow `docs/TWO_HOUR_GUIDE.md`. The helper script is:
 
-```bash
-bash scripts/run_2hour.sh
-```
-
-It creates compact deterministic datasets, runs the 48-case correctness suite, performs 3 repetitions at 1/2/4 threads, and generates summary CSV files and graphs. It may take longer on slower hardware. Use the actual outputs in `docs/REPORT_TEMPLATE.md`.
-
-Additional submission support:
-- `docs/TWO_HOUR_GUIDE.md` — timed step-by-step workflow
-- `docs/VIVA_QA.md` — viva questions and beginner-friendly answers
-- `docs/REPORT_TEMPLATE.md` — report structure with result placeholders
