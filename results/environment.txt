@@ -1,0 +1,14 @@
+Date: Sat Oct 31 02:22:25 AM UTC 2026
+Kernel: Linux 7.0.0-29-generic x86_64
+OS: Ubuntu 26.04 LTS
+CPU: 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+Logical cores: 8
+  Model name:                              11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+  Thread(s) per core:                      2
+  Core(s) per socket:                      4
+  Socket(s):                               1
+  L2 cache:                                5 MiB (4 instances)
+  L3 cache:                                12 MiB (1 instance)
+RAM: 14Gi
+Compiler: gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Flags: -O2 -Wall -Wextra -std=gnu11 -lpthread
